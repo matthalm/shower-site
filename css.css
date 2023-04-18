@@ -1,0 +1,130 @@
+body {
+  background-image: url("img/air.png");
+  background-repeat: repeat;
+  background-color: green;
+}
+
+#sky {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #b5ebff;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#sunbox {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 250px);
+}
+
+#sunbox img {
+  width: 500px;
+  animation: rotation 60s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#cloudsky {
+  position: relative;
+  width: 100%;
+  height: 20rem;
+  overflow-x: hidden;
+}
+
+.clouds {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+
+.cloud1 {
+  animation: slide1 60s linear infinite;
+}
+
+.cloud2 {
+  animation: slide2 60s linear infinite;
+}
+
+@keyframes slide1 {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes slide2 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+
+#ground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("img/background.png");
+  background-repeat: repeat-x;
+}
+
+.object {
+  position: relative;
+  display: inline-block;
+}
+
+#objectbox {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.object img {
+  width: 300px;
+  height: 300px;
+}
+
+.single {
+  left: 25px;
+  top: 50px;
+  font-family: sans-serif;
+}
+
+.back {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.back img {
+  height: 50px;
+}
+
+.frame {
+  position: absolute;
+  left: 350px;
+  top: 100px;
+  width: calc(100vw - 355px);
+  height: calc(100vh - 105px);
+  border: 1px solid black;
+  border-radius: 15px;
+}
