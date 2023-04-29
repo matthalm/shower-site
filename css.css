@@ -98,6 +98,7 @@ body {
 .object {
   position: relative;
   display: inline-block;
+  width: 300px;
 }
 
 #objectbox {
@@ -106,6 +107,7 @@ body {
   text-align: center;
   margin-left: 10vw;
   margin-right: 10vw;
+  z-index: 2;
 }
 
 .object img {
@@ -137,4 +139,11 @@ body {
   height: calc(100vh - 105px);
   border: 1px solid black;
   border-radius: 15px;
+}
+
+.critter {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 250px;
 }
