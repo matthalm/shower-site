@@ -1,7 +1,7 @@
 body {
   background-image: url("img/air.png");
   background-repeat: repeat;
-  background-color: green;
+  background-color: #72c055;
 }
 
 #sky {
@@ -92,7 +92,7 @@ body {
 
 #objectbox {
   position: relative;
-  top: 100px;
+  top: 250px;
   text-align: center;
   margin-left: 10vw;
   margin-right: 10vw;
