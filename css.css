@@ -74,7 +74,7 @@ body {
 }
 
 #titlebox img {
-  width: calc(min(95vw, 950px));
+  width: calc(min(95vw, 800px));
 }
 
 #ground {
@@ -188,4 +188,9 @@ body {
 #mushroom1 {
   left: var(--mushroom1y);
   margin-top: var(--mushroom1x);
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
