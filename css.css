@@ -85,6 +85,7 @@ body {
   height: 100%;
   background-image: url("img/background.png");
   background-repeat: repeat-x;
+  overflow: hidden;
 }
 
 .object {
