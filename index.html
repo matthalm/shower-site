@@ -4,12 +4,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Kathryn & Matt's Asynchronous Baby Webscape</title>
+	<title>Kathryn & Matt's Asynchronous Baby Shower Webscape</title>
 	<link rel="stylesheet" href="css.css">
-	<script type="text/javascript" src="script.js"></script>
+	<script src="script.js" defer></script>
 </head>
 
-<body onload="randomizecritters();">
+<body>
 	
 	<div id="sky">
 
@@ -23,7 +23,7 @@
 		</div>
 
 		<div id="titlebox">
-			<p>Kathryn & Matt's Asynchronous Baby Webscape</p>
+			<img src="img/title-1.png">
 		</div>
 
 	</div>
@@ -37,8 +37,8 @@
 				<p>Share notes and thoughts for the baby.</p>
 			</div>
 			<div id="parents" class="object">
-				<a href="https://photos.app.goo.gl/tHasvgvQTz1D7PoJ6"><img src="img/parents.png" onmouseover="this.src='img/parents-on.png'" onmouseout="this.src='img/parents.png'"></a>
-				<p>Photos of the parents-to-be as babies.</p>
+				<a href="https://photos.app.goo.gl/994eCmyQfYRCX76o9"><img src="img/parents.png" onmouseover="this.src='img/parents-on.png'" onmouseout="this.src='img/parents.png'"></a>
+				<p>Photos of the parents-to-be when <em>they</em> were babies.</p>
 			</div>
 			<div id="gifts" class="object">
 				<a href="https://www.babylist.com/list/halm-baby"><img src="img/gifts.png" onmouseover="this.src='img/gifts-on.png'" onmouseout="this.src='img/gifts.png'"></a>
@@ -51,16 +51,16 @@
 
 		</div>
 
-	</div>
+		<div class="critter" id="rabbit1"><img src="img/critter-rabbit.png"></div>
+		<div class="critter" id="rabbit2" style="transform: rotateY(180deg);"><img src="img/critter-rabbit.png"></div>
+		<div class="critter" id="squirrel1"><img src="img/critter-squirrel.png"></div>
+		<div class="critter" id="squirrel2"><img src="img/critter-squirrel.png"></div>
+		<div class="critter" id="squirrel3" style="transform: rotateY(180deg);"><img src="img/critter-squirrel.png"></div>
+		<div class="critter" id="daisy1"><img src="img/critter-daisy.png"></div>
+		<div class="critter" id="daisy2"><img src="img/critter-daisy.png"></div>
+		<div class="critter" id="daisy3" style="transform: rotateY(180deg);"><img src="img/critter-daisy.png"></div>
+		<div class="critter" id="mushroom1"><img src="img/critter-mushroom.png"></div>
 
-	<div class="critter" id="rabbit1" style="left: 23vw; margin-top: 250px;"><img src="img/critter-rabbit.png"></div>
-	<div class="critter" id="rabbit2" style="left: 83vw; margin-top: 150px; transform: rotateY(180deg);"><img src="img/critter-rabbit.png"></div>
-	<div class="critter" id="squirrel1" style="left: 52vw; margin-top: 20px;"><img src="img/critter-squirrel.png"></div>
-	<div class="critter" id="squirrel2" style="left: 12vw; margin-top: 25px;"><img src="img/critter-squirrel.png"></div>
-	<div class="critter" id="squirrel3" style="left: 92vw; margin-top: 23px; transform: rotateY(180deg);"><img src="img/critter-squirrel.png"></div>
-	<div class="critter" id="daisy1" style="left: 75vw; margin-top: 280px;"><img src="img/critter-daisy.png"></div>
-	<div class="critter" id="daisy2" style="left: 23vw; margin-top: 380px;"><img src="img/critter-daisy.png"></div>
-	<div class="critter" id="daisy3" style="left: 15vw; margin-top: 180px; transform: rotateY(180deg);"><img src="img/critter-daisy.png"></div>
-	<div class="critter" id="mushroom1" style="left: 44vw; margin-top: 200px;"><img src="img/critter-mushroom.png"></div>
+	</div>
 
 </body>
