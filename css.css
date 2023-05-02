@@ -92,7 +92,6 @@ body {
   position: relative;
   display: inline-block;
   width: 300px;
-  font-family: sans-serif;
 }
 
 #objectbox {
@@ -104,7 +103,7 @@ body {
   z-index: 2;
 }
 
-.object img {
+.objectimg {
   width: 300px;
   height: 300px;
 }
@@ -115,6 +114,20 @@ body {
   padding: 8px;
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.35); 
+  font-family: sans-serif;
+}
+
+.icon {
+  position: absolute;
+  display: inline-block;
+  width: 100px;
+  top: 225px;
+  right: 0;
+}
+
+.icon img {
+  width: 100px;
+  height: 100px;
 }
 
 .critter {
