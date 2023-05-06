@@ -33,3 +33,23 @@ daisy3.style.setProperty('--daisy3x', Math.random() * 200 + 200 + 'px');
 var mushroom1 = document.querySelector('#mushroom1');
 mushroom1.style.setProperty('--mushroom1y', Math.random() * 95 + 'vw');
 mushroom1.style.setProperty('--mushroom1x', Math.random() * 200 + 100 + 'px');
+
+var ladybug1 = document.querySelector('#ladybug1');
+ladybug1.style.setProperty('--ladybug1y', Math.random() * 95 + 'vw');
+ladybug1.style.setProperty('--ladybug1x', Math.random() * 200 + 300 + 'px');
+
+var ladybug2 = document.querySelector('#ladybug2');
+ladybug2.style.setProperty('--ladybug2y', Math.random() * 95 + 'vw');
+ladybug2.style.setProperty('--ladybug2x', Math.random() * 200 + 300 + 'px');
+
+var flower1 = document.querySelector('#flower1');
+flower1.style.setProperty('--flower1y', Math.random() * 95 + 'vw');
+flower1.style.setProperty('--flower1x', Math.random() * 300 + 200 + 'px');
+
+var flower2 = document.querySelector('#flower2');
+flower2.style.setProperty('--flower2y', Math.random() * 95 + 'vw');
+flower2.style.setProperty('--flower2x', Math.random() * 300 + 200 + 'px');
+
+var flower3 = document.querySelector('#flower3');
+flower3.style.setProperty('--flower3y', Math.random() * 95 + 'vw');
+flower3.style.setProperty('--flower3x', Math.random() * 300 + 200 + 'px');
