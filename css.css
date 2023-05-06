@@ -1,5 +1,5 @@
 body {
-  background-image: url("img/air.png");
+  background-image: url("img/grass.png");
   background-repeat: repeat;
   background-color: #72c055;
 }
@@ -114,10 +114,10 @@ body {
   padding: 8px;
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.35); 
-  font-family: sans-serif;
+  font-family: Garamond, serif;
 }
 
-.icon {
+.object .icon {
   position: absolute;
   display: inline-block;
   width: 100px;
@@ -156,7 +156,17 @@ body {
   --daisy3x: 180px;
   --mushroom1y: 44vw;
   --mushroom1x: 200px;
-}
+  --ladybug1y: 1vw;
+  --ladybug1x: 210px;
+  --ladybug2y: 2vw;
+  --ladybug2x: 220px;
+  --flower1y: 5vw;
+  --flower1x: 250px;
+  --flower2y: 10vw;
+  --flower2x: 260px;
+  --flower3y: 15vw;
+  --flower3x: 270px;
+  }
 
 #rabbit1 {
   left: var(--rabbit1y);
@@ -203,7 +213,75 @@ body {
   margin-top: var(--mushroom1x);
 }
 
+#ladybug1 {
+  left: var(--ladybug1y);
+  margin-top: var(--ladybug1x);
+}
+
+#ladybug2 {
+  left: var(--ladybug2y);
+  margin-top: var(--ladybug2x);
+}
+
+#flower1 {
+  left: var(--flower1y);
+  margin-top: var(--flower1x);
+}
+
+#flower2 {
+  left: var(--flower2y);
+  margin-top: var(--flower2x);
+}
+
+#flower3 {
+  left: var(--flower3y);
+  margin-top: var(--flower3x);
+}
+
 a {
   color: black;
   text-decoration: none;
+}
+
+#backbox {
+  position: absolute;
+  top: 150px;
+  left: 15px;
+  z-index: 10;
+}
+
+#backbox img {
+  height: 50px;
+}
+
+.photobox {
+  position: relative;
+  width: calc(min(400px, 60vw));
+  display: inline-block;
+  margin: 15px;
+  align: center;
+  vertical-align: middle;
+}
+
+.photo {
+  position: relative;
+  display: inline-block;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.35);
+}
+
+.land {
+  width: calc(min(400px, 60vw));
+}
+
+.port {
+  height: calc(min(400px, 60vw));
+}
+
+.photobox .icon {
+  position: absolute;
+  display: inline-block;
+  width: 100px;
+  right: 5px;
+  bottom: 5px;
 }
